@@ -1,0 +1,35 @@
+/* css for Header, Nav, Footer, and App.js */
+
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 15px;
+}
+
+.Header {
+  background-image: url("../../images/joel-filipe-VuwAfoHpxgs-unsplash.jpg");
+  height: 100px;
+}
+
+.nameHeader {
+  float: left;
+  padding-left: 20px;
+}
+
+.Nav {
+  background-image: url("../../images/joel-filipe-VuwAfoHpxgs-unsplash.jpg");
+}
+
+.Nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
