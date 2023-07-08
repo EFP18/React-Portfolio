@@ -33,3 +33,13 @@ li {
   color: black;
   font-weight: 500;
 }
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+}
