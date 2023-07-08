@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(85, 85, 147);
+
+}
+
+.form {
+  margin: 20px;
+  align-content: center;
+  /* display: block; */
+
+}
+
+.form input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60%;
+
+}
+
+.messageBox {
+  min-height: 200px;
+}
+
+.messageBox input{
+  align-items: top;
+}
+
+.button{
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 60%;
+
+}
+
+.button:hover {
+  background-color: rgb(111, 120, 129);
+}
+
+.contactTitle {
+  width: 100%;
+}

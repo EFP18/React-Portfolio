@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./style.css";
+import "../styles/Contact.css";
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
@@ -51,6 +51,7 @@ function ContactForm() {
 
   return (
     <div>
+      <h1 className="contactTitle">Contact</h1>
       <form className="form">
         <input
           value={fullName}
@@ -66,14 +67,14 @@ function ContactForm() {
           type="text"
           placeholder="Email Address:"
         />
-        <input
+        <input className="messageBox"
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Message:"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button className="button" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>

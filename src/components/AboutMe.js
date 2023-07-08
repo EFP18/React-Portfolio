@@ -5,7 +5,6 @@ function AboutMe() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <div className="container">
-      <h1>This is the AboutMe page!</h1>
       <p>Very methodical and hard working, I enjoy solving puzzles and answering complex questions. 
         I am very passionate about languages and I'm very interested in learning some programming languages as well, 
         to combine them with creativity. I am very eager to learn, I am very organized, and I work very well with deadlines. 
