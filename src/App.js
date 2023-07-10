@@ -7,16 +7,11 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 // Import `useEffect` Hook from React
 // import { useEffect } from "react";
 
 function App() {
-
-  // // YOUR CODE HERE
-  // useEffect(() => {
-  //   document.title = "hello";
-  // });
-
 
   return (
     <div className="App" >

@@ -24,10 +24,6 @@ li {
   padding-left: 20px;
 }
 
-.Nav {
-  background-image: url("../../images/joel-filipe-VuwAfoHpxgs-unsplash.jpg");
-}
-
 .Nav a {
   text-decoration: none;
   color: black;
@@ -41,5 +37,5 @@ li {
   width: 100%;
   color: black;
   text-align: center;
-  font-size: 10px;
+  font-size: 5px;
 }

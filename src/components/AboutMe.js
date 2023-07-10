@@ -1,10 +1,13 @@
 import React from 'react';
+import "../styles/AboutMe.css"
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function AboutMe() {
   // All functional components must have a return method that contains JSX.
   // We return all the JSX inside a parent element with a className of "container".
   return (
-    <div className="container">
+    <div className="container textAboutMe col-lg-12 col-md-12 col-s-12">
       <p>Very methodical and hard working, I enjoy solving puzzles and answering complex questions. 
         I am very passionate about languages and I'm very interested in learning some programming languages as well, 
         to combine them with creativity. I am very eager to learn, I am very organized, and I work very well with deadlines. 
