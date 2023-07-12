@@ -53,7 +53,7 @@ function Portfolio() {
     {
       id: 6, 
       title: "Weather Dashboard",
-      description: "Weather Dashboard",
+      description: "Check the weather anywhere!",
       url: "https://efp18.github.io/Weather-Dashboard/",
       githubURL: "https://github.com/EFP18/Weather-Dashboard",
       image: require("../images/weatherdash.png")

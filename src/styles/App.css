@@ -22,6 +22,7 @@ li {
 .nameHeader {
   float: left;
   padding-left: 20px;
+  color: rgb(219, 213, 213);
 }
 
 .Nav a {
