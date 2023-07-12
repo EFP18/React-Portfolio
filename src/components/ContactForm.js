@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
+import { useEffect } from "react";
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 
 function ContactForm() {
+
+  // Use useEffect to set the title of the page on the tab
+  useEffect(() => {
+    document.title = "Contact Page";
+  });
+
   // Here we set two state variables for firstName and lastName using `useState`
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
