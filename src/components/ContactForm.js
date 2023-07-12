@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
-import { useEffect } from "react";
+import Page from './Page';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 
 function ContactForm() {
 
-  // Use useEffect to set the title of the page on the tab
-  useEffect(() => {
-    document.title = "Contact Page";
-  });
+  // different way to add the title 
+  // // Use useEffect to set the title of the page on the tab
+  // useEffect(() => {
+  //   document.title = "Contact Page";
+  // });
 
   // Here we set two state variables for firstName and lastName using `useState`
   const [fullName, setFullName] = useState("");
@@ -57,40 +58,42 @@ function ContactForm() {
   };
 
   return (
-    <div>
-      <h1 className="contactTitle">Contact</h1>
-      <form className="form">
-        <input
-          value={fullName}
-          name="fullName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name:"
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Email Address:"
-        />
-        <input className="messageBox"
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Message:"
-        />
-        <button className="button" type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-    </div>
+    <Page title={'Contact'}>
+      <div>
+        <h1 className="contactTitle">Contact</h1>
+        <form className="form">
+          <input
+            value={fullName}
+            name="fullName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name:"
+          />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Email Address:"
+          />
+          <input className="messageBox"
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Message:"
+          />
+          <button className="button" type="button" onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
+    </Page>
   );
 }
 

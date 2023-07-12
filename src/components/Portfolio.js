@@ -1,17 +1,12 @@
 import React from 'react';
 import Project from './Project';
-import { useEffect } from "react";
 import "../styles/Portfolio.css";
+import Page from './Page';
 
 
 function Portfolio() {
   // All functional components must have a return method that contains JSX.
   // We return all the JSX inside a parent element with a className of "container".
-
-// Use useEffect to set the title of the page on the tab
-  useEffect(() => {
-    document.title = "Portfolio";
-  });
 
   const projects = [
     {
@@ -45,22 +40,24 @@ function Portfolio() {
     },
   ]
   return (
-    <div className="container d-flex flex-wrap justify-content-between">
-      {/* use project template for each project of the list */}
-        {projects.map((project) => {
-          return (
-            // props: title, description, url, image. Project.title etc is the value of the prop
-            // dynamically change the data of the card
-            <Project 
-              key={project.id} 
-              title={project.title} 
-              description={project.description} 
-              url={project.url} 
-              image={project.image} 
-            />
-          )
-        })}
-    </div>
+    <Page title={'Portfolio'}>
+      <div className="container d-flex flex-wrap justify-content-between">
+        {/* use project template for each project of the list */}
+          {projects.map((project) => {
+            return (
+              // props: title, description, url, image. Project.title etc is the value of the prop
+              // dynamically change the data of the card
+              <Project 
+                key={project.id} 
+                title={project.title} 
+                description={project.description} 
+                url={project.url} 
+                image={project.image} 
+              />
+            )
+          })}
+      </div>
+      </Page>
   );
 }
 
