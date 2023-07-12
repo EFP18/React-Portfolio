@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 // import headshot
 import headShot from "../images/headshotPortfolio.png";
 
@@ -12,10 +12,30 @@ function Nav() {
       <img src={headShot} className="rounded-circle pl-100" alt="headshot" style={{ height: '55px' }} />
       <ul className="">
         {/* About leads to the / endpoint */}
-        <li><Link to = "/">About Me</Link> </li>
-        <li><Link to = "/Portfolio">Portfolio</Link> </li>
-        <li><Link to = "/Resume">Resume</Link> </li>
-        <li><Link to = "/Contact">Contact</Link> </li>
+        <li><NavLink to = "/" style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isPending ? "red" : "rgb(109, 109, 167)",
+          };
+        }}>About Me</NavLink > </li>
+        <li><NavLink  to = "/Portfolio" style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isPending ? "red" : "rgb(109, 109, 167)",
+          };
+        }}>Portfolio</NavLink > </li>
+        <li><NavLink  to = "/Resume" style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isPending ? "red" : "rgb(109, 109, 167)",
+          };
+        }}>Resume</NavLink > </li>
+        <li><NavLink  to = "/Contact" style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isPending ? "red" : "rgb(109, 109, 167)",
+          };
+        }}>Contact</NavLink > </li>
 
       </ul>      
     </div>
