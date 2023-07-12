@@ -26,7 +26,6 @@ function App() {
           <Route path="/Resume" element={<Resume />} />
           <Route path="/Contact" element={<ContactForm />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </div>
