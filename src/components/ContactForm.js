@@ -47,6 +47,11 @@ function ContactForm() {
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
 
+    // check to see that message is complete
+    // if (message === " ") {
+    //   setErrorMessage("Please add a message");
+    //   return;
+    // }
     // Thank the user and clear the inputs
     alert(`Thank you ${fullName}`);
 
@@ -59,7 +64,7 @@ function ContactForm() {
 
   return (
     <Page title={'Contact'}>
-      <div>
+      <div className="contactForm">
         <h1 className="contactTitle">Contact</h1>
         <form className="form">
           <input

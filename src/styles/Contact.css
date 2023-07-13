@@ -1,7 +1,3 @@
-body {
-  background-color: rgb(85, 85, 147);
-
-}
 
 .form {
   margin: 20px;
@@ -43,4 +39,8 @@ body {
 
 .contactTitle {
   width: 100%;
+}
+
+.contactForm {
+    text-align: center;
 }

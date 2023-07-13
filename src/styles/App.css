@@ -1,7 +1,7 @@
 /* css for Header, Nav, Footer, and App.js */
 
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 ul {
@@ -14,15 +14,17 @@ li {
   margin: 15px;
 }
 
-.Header {
+/* .Header {
   background-image: url("../../images/joel-filipe-VuwAfoHpxgs-unsplash.jpg");
   height: 200px;
-}
+} */
 
 .nameHeader {
   float: left;
   padding-left: 20px;
   color: rgb(219, 213, 213);
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 .Nav a {
