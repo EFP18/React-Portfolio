@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './Nav';
+import Navigation from './Navigation';
 
 function Header() {
   // All functional components must have a return method that contains JSX.
@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="container Header">
       <h1 className="nameHeader">Ester Pelosof</h1>
-      <Nav></Nav>
+      <Navigation></Navigation>
     </div>
   );
 }

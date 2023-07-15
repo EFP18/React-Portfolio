@@ -47,13 +47,21 @@ function ContactForm() {
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
 
-    // check to see that message is complete
-    // if (message === " ") {
-    //   setErrorMessage("Please add a message");
-    //   return;
-    // }
+
+    // validate message and name to not be empty
+    if (message.trim().length === 0 && fullName.trim().length === 0) {
+      setErrorMessage("Please input a valid name and a message.");
+      return;
+    } else if (message.trim().length  === 0) {
+      setErrorMessage("Message is empty. Please input a message.");
+      return;
+    } else if (fullName.trim().length === 0) {
+      setErrorMessage("Please provide a valid name.");
+      return;
+    }
+
     // Thank the user and clear the inputs
-    alert(`Thank you ${fullName}`);
+    alert(`Thank you for reaching out. I will get back to you as soon as possible!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
 

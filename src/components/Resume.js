@@ -15,6 +15,12 @@ function Resume() {
           <p className="card-text">Languages: HTML, CSS, JAVASCRIPT</p>
           <p className="card-text">Applications: Bootstrap, jQuery, Node.js, GitHub, Express.js, React.js, SQL</p>
           <a href={resume} download className="btn btn-primary">Click here to download my resume!</a>
+          <div className="education">
+            <h5 className="card-title ">Education</h5>
+            <p className="card-text">Languages: HTML, CSS, JAVASCRIPT</p>
+            <p className="card-text">Applications: Bootstrap, jQuery, Node.js, GitHub, Express.js, React.js, SQL</p>
+          </div>
+
         </div>
       </div>
     </Page>
