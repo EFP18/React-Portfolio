@@ -3,6 +3,7 @@ import "../styles/AboutMe.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Page from "./Page";
 import pictureSp from "../images/splash2.jpg";
+import headShot from "../images/headshotPortfolio.png";
 
 function AboutMe() {
   // All functional components must have a return method that contains JSX.
@@ -12,12 +13,18 @@ function AboutMe() {
       {/* <div className="container textAboutMe "> */}
       <div className="card mb-3">
         <img
-          className="card-img-top imageAboutMe"
+          className="imageAboutMe"
           src={pictureSp}
           alt="aboutMeImage"
         />
         <div className="card-body aboutMeText">
           <h5 className="card-title cardTitle">Hey! My name is Ester!</h5>
+          <img
+            src={headShot}
+            className="rounded-circle pl-100"
+            alt="headshot"
+            style={{ height: "70px", marginLeft:"30px", width:"50px"}}
+          />
           <p className="card-text aboutMeText">
             Very methodical and hard working, I enjoy solving puzzles and
             answering complex questions. I am very passionate about languages
