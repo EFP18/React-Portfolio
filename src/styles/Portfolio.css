@@ -1,13 +1,13 @@
-.cards {
+/* .cards {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} */
 
-.btn {
+/* .btn {
   background-color: rgb(117, 117, 198);
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
   background-color: rgb(58, 58, 90);
-}
+} */

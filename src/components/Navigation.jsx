@@ -11,10 +11,8 @@ function Navigation() {
       <Navbar collapseOnSelect expand='sm'>
         <Container>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-          <Navbar.Collapse id='responsive-navbar-nav'>
-            {/* <div className="Nav navbar navbar-default navbar-fixed-top "> */}
-
-            <ul className=''>
+          <Navbar.Collapse id='basic-navbar-nav' className='navbar-collapse'>
+            <ul className='Navigation'>
               {/* About leads to the / endpoint */}
               <li>
                 <NavLink

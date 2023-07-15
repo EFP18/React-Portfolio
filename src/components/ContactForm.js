@@ -60,8 +60,25 @@ function ContactForm() {
       return;
     }
 
+    if (message.trim().length !== 0) {
+      console.log('input value is NOT empty');
+    } else {
+      console.log('input value is empty');
+      setErrorMessage("Message is empty");
+      return;
+    }
+
+    // validate name is complete
+    if (fullName.trim().length !== 0) {
+      console.log('input value is NOT empty');
+    } else {
+      console.log('input value is empty');
+      setErrorMessage("Message is empty");
+      return;
+    }
+
     // Thank the user and clear the inputs
-    alert(`Thank you for reaching out. I will get back to you as soon as possible!`);
+    alert(`Thank you ${fullName}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
 
