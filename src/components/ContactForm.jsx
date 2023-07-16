@@ -113,7 +113,7 @@ function ContactForm() {
             type="text"
             placeholder="Message:"
           />
-          <button className="button" type="button" onClick={handleFormSubmit}>
+          <button className="button btn btn-primary" type="button" onClick={handleFormSubmit}>
             Submit
           </button>
         </form>
