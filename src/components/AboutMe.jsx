@@ -28,17 +28,11 @@ function AboutMe() {
           />
         </Col>
         <Col sm={10}>
-          <div className='mb-3'>
-            <div className='card-body aboutMeText m-auto'>
+          <div className='mb-3 ml-4'>
+            <div className='card-body aboutMeText'>
               <h5 className='card-title cardTitle mb-4'>
                 Hey! My name is Ester!
               </h5>
-              {/* <img
-                src={headShot}
-                className='rounded-circle '
-                alt='headshot'
-                style={{ height: '70px', marginLeft: '40px', width: '50px' }}
-              /> */}
               <p className='card-text aboutMeText'>
                 Very methodical and hard working, I enjoy solving puzzles and
                 answering complex questions. I am very passionate about
