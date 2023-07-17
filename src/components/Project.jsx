@@ -18,6 +18,7 @@ function Project(props) {
         </Card.Body>
         <Card.Body>
           <Card.Link href={props.url}>Link to project</Card.Link>
+          <Card.Link href={props.githubURL}>GitHub Repo</Card.Link>
         </Card.Body>
       </Card>
     </Row>
