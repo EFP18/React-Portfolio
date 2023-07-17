@@ -72,6 +72,7 @@ function Portfolio() {
               description={project.description}
               url={project.url}
               image={project.image}
+              githubURL={project.githubURL}
             />
           );
         })}
