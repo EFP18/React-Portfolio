@@ -1,5 +1,7 @@
 /* css for Header, Nav, Footer, and App.js */
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 .App {
   /* text-align: center; */
   height: 100vh;
@@ -14,19 +16,33 @@ ul {
 
 li {
   margin: 15px;
+  margin-top: 25px;
 } 
 
+.Header {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items:center; */
+}
 
 .nameHeader {
-  float: left;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items:center; */
+  /* float: left; */
+  font-family: 'Dancing Script', cursive;
   padding-left: 20px;
   color: rgb(219, 213, 213);
   margin-top: 20px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .Navigation {
   float: right;
+}
+
+.Navigation li {
+  position: relative;
 }
 
 .Navigation a {
@@ -45,4 +61,25 @@ li {
   /* display: flex; */
   justify-content: center;
   margin-top: auto;
+}
+
+@media (max-width: 575px) {
+  .navbar-collapse {
+    width: 100%;
+  }
+  .Navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .Navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }

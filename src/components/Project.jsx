@@ -21,7 +21,7 @@
 // export default Project;
 
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import { Card, Row } from 'react-bootstrap';
 
 function Project(props) {
   return (
@@ -35,6 +35,7 @@ function Project(props) {
     //       </div>
     //     </div>
     //   );
+<Row  className='mb-4 col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center'>
 
     <Card key={props.id} style={{ width: '18rem' }}>
       <Card.Img
@@ -52,6 +53,7 @@ function Project(props) {
         <Card.Link href={props.githubURL}>GitHub Repo</Card.Link>
       </Card.Body>
     </Card>
+</Row>
   );
 }
 

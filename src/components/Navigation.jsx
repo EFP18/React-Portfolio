@@ -12,7 +12,7 @@ function Navigation() {
         <Container>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav' className='navbar-collapse'>
-            <ul className='Navigation'>
+            <ul className='Navigation ml-auto'>
               {/* About leads to the / endpoint */}
               <li>
                 <NavLink

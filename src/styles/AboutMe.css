@@ -1,26 +1,23 @@
-.textAboutMe {
-  width: 60%;
-  float: center;
-}
-
 .imageAboutMe {
   height: 200px;
   margin-left: 30px;
-  margin-right: 30px;  
+  margin-right: 30px !important;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .aboutMeText {
-  margin-left: 30px;
-  width: 75%;
+  margin-left: 40px;
+  margin-right: 50px;
+  /* width: 90%; */
   /* margin: 0 auto; */
 }
 
 .cardTitle {
-  margin-left: 50px;
+  margin-left: 40px;
   font-size: 30px;
 }
 
 .smallMsg {
-  margin-left: 30px;
-
+  margin-left: 40px;
 }
