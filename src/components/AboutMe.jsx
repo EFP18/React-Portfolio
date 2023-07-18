@@ -31,11 +31,11 @@ function AboutMe() {
           </Col>
           <Col sm={10}>
             <div className='mb-3 ml-4'>
-              <div className='card-body aboutMeText'>
+              <div className='card-body'>
                 <h5 className='card-title cardTitle mb-4'>
                   Hey! My name is Ester!
                 </h5>
-                <p className='card-text aboutMeText'>
+                <p className='card-text'>
                   Very methodical and hard working, I enjoy solving puzzles and
                   answering complex questions. I am very passionate about
                   languages and I'm very interested in learning some programming
@@ -43,7 +43,7 @@ function AboutMe() {
                   eager to learn, well-organized, and I work very well with
                   deadlines.
                 </p>
-                <p className='card-text aboutMeText'>
+                <p className='card-text'>
                   I studied Linguistics at the University of Groningen in the
                   Netherlands. I'm really passionate about studying different
                   languages, and I find the creation of different structures and
@@ -51,7 +51,7 @@ function AboutMe() {
                   programming languages and coding.
                 </p>
                 <p className='card-text'>
-                  <small className='text-muted smallMsg'>
+                  <small className='text-muted'>
                     Contact me for more information!!
                   </small>
                 </p>

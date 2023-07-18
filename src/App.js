@@ -6,13 +6,13 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className='App'>
       {/* anything between the browserrouter tag is react router dom functionality */}
-      <BrowserRouter>
+      <HashRouter>
         <Header></Header>
         {/* conditionally rendered routes */}
         <Routes>
@@ -24,7 +24,7 @@ function App() {
           <Route path='/Contact' element={<ContactForm />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
