@@ -6,7 +6,7 @@ function Project(props) {
   return (
     // creating a base for the portfolio page, for each project to take this form
     <Row className='mb-4 col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center'>
-      <Card key={props.id} style={{ width: '18rem' }}>
+      <Card key={props.id} style={{ width: '18rem', padding: '0' }}>
         <Card.Img
           variant='top'
           src={props.image}

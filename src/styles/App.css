@@ -2,8 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+* {
+  background-color: #e7eaea;
+}
+
 .App {
-  /* text-align: center; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,18 +20,13 @@ ul {
 li {
   margin: 15px;
   margin-top: 25px;
-} 
+}
 
 .nameHeader {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items:center; */
-  /* float: left; */
   font-family: 'Dancing Script', cursive;
   padding-left: 20px;
-  color: rgb(219, 213, 213);
+  color: rgb(109, 109, 167);
   margin-top: 20px;
-  /* margin-right: 10px; */
 }
 
 .Navigation {
@@ -44,15 +42,13 @@ li {
   font-weight: 500;
 }
 
-.Footer a{
+.Footer a {
   color: black;
-  /* justify-content: center; */
   font-size: 15px;
   text-decoration: none;
 }
 
-.Footer{
-  /* display: flex; */
+.Footer {
   justify-content: center;
   margin-top: auto;
 }
