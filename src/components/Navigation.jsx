@@ -8,6 +8,7 @@ function Navigation() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <>
+    {/* navbar responsiveness to create a toggle button when screen is small */}
       <Navbar collapseOnSelect expand='sm'>
         <Container>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -15,6 +16,7 @@ function Navigation() {
             <ul className='Navigation ml-auto'>
               {/* About leads to the / endpoint */}
               <li>
+                {/* use react navlink component. Set the style based on the current page (Active, pending) */}
                 <NavLink
                   to='/'
                   style={({ isActive, isPending }) => {

@@ -83,7 +83,7 @@ function ContactForm() {
     setEmail('');
     setMessage('');
     setErrorMessage('');
-    console.log(errorMessage)
+    console.log(errorMessage);
   };
 
   return (

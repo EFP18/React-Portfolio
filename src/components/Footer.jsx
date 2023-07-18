@@ -10,6 +10,7 @@ function Footer() {
   return (
     <ul className='Footer'>
       <li>
+        {/* using logo images for the footer with link to the respective pages */}
         <Link to='https://github.com/EFP18'>
           <img src={githubLogo} alt='github logo' style={{ height: '40px' }} />
         </Link>

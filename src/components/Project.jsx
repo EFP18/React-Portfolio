@@ -4,6 +4,7 @@ import { Card, Row } from 'react-bootstrap';
 function Project(props) {
   console.log(props.githubURL);
   return (
+    // creating a base for the portfolio page, for each project to take this form
     <Row className='mb-4 col-xs-12 col-md-6 col-lg-4 d-flex justify-content-center'>
       <Card key={props.id} style={{ width: '18rem' }}>
         <Card.Img
