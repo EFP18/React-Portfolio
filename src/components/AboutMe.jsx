@@ -34,19 +34,19 @@ function AboutMe() {
                 Hey! My name is Ester!
               </h5>
               <p className='card-text aboutMeText'>
-                Very methodical and hard working, I enjoy solving puzzles and
+                {/* Very methodical and hard working, I enjoy solving puzzles and
                 answering complex questions. I am very passionate about
                 languages and I'm very interested in learning some programming
                 languages as well, to combine them with creativity. I am very
                 eager to learn, well-organized, and I work very well with
-                deadlines.
+                deadlines. */}
               </p>
               <p className='card-text aboutMeText'>
-                I studied Linguistics at the University of Groningen in the
+                {/* I studied Linguistics at the University of Groningen in the
                 Netherlands. I'm really passionate about studying different
                 languages, and I find the creation of different structures and
                 sentences very interesting, which is why I decided to study
-                programming languages and coding.
+                programming languages and coding. */}
               </p>
               <p className='card-text'>
                 <small className='text-muted smallMsg'>
