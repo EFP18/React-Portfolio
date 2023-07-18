@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.61483711.css",
+    "main.js": "/React-Portfolio/static/js/main.a13c95ab.js",
+    "static/js/787.18c97524.chunk.js": "/React-Portfolio/static/js/787.18c97524.chunk.js",
+    "static/media/headshotPortfolio.png": "/React-Portfolio/static/media/headshotPortfolio.72c0f4c475756496a444.png",
+    "static/media/splash2.jpg": "/React-Portfolio/static/media/splash2.934d8b736c621f1e282c.jpg",
+    "static/media/marveldex.png": "/React-Portfolio/static/media/marveldex.49f4c6943edc81296426.png",
+    "static/media/codetrove.png": "/React-Portfolio/static/media/codetrove.5414708e51d782a8173a.png",
+    "static/media/socialnetworkapi.png": "/React-Portfolio/static/media/socialnetworkapi.ad7b50bbbea58c1d5d26.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.b5f54b496cb67f8a2d89.pdf",
+    "static/media/weatherdash.png": "/React-Portfolio/static/media/weatherdash.89cdc5eaaacb2d4f82c1.png",
+    "static/media/logo-ig-png-32464.png": "/React-Portfolio/static/media/logo-ig-png-32464.046af6041ae1fffdc4a7.png",
+    "static/media/jate.png": "/React-Portfolio/static/media/jate.b23575de7009f7f5cbfb.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.61483711.css.map": "/React-Portfolio/static/css/main.61483711.css.map",
+    "main.a13c95ab.js.map": "/React-Portfolio/static/js/main.a13c95ab.js.map",
+    "787.18c97524.chunk.js.map": "/React-Portfolio/static/js/787.18c97524.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61483711.css",
+    "static/js/main.a13c95ab.js"
+  ]
+}
