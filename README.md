@@ -39,5 +39,5 @@ Lastly, you can download my complete resume through the `Resume` tab.
 
 ### Questions
 
-- GitHub: http://github.com/https://github.com/EFP18
+- GitHub: https://github.com/EFP18
 - Email: ester.p18@hotmail.com
