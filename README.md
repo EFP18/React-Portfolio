@@ -9,7 +9,7 @@
 
 ### Description
 
-This is my portfolio created with `React`. I used this technology to showcase my knowledge of creating a single-page application, which would allow me to display my past projects. Other technologies used are `CSS`, `React Bootstrap`, as well as several other `React` libraries. Finally, this application is fully responsive and follows accessibility standards.
+This is my portfolio created with `React. I used this technology to showcase my knowledge of creating a single-page application, which would allow me to display my past projects. Other technologies used are `CSS`, `React Bootstrap`, as well as several other `React` libraries. Finally, this application is fully responsive and follows accessibility standards.
 ![AboutMe](./src/images/screenshot.png)
 
 - Follow the link to access the live version of my Portfolio: https://efp18.github.io/React-Portfolio/
